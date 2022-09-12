@@ -47,4 +47,4 @@ jobs:
       - name: Run tests
         uses: DevExpress/testcafe-action@latest
         with:
-          args: 'chrome:headless index.e2e.test.ts -s takeOnFails=true -q -c 3'
+          args: 'chrome:headless:cdpPort=9222 index.e2e.test.ts -s takeOnFails=true -q -c 3'
