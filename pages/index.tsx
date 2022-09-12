@@ -81,7 +81,7 @@ export default function Home() {
                   <circle cx="48" cy="48" r="48"/>
                 </svg>
                 <svg className="stroke-neutral-400 stroke-[5px]" width='100%' height='100%' viewBox='0 0 100 100' preserveAspectRatio='none'>
-                  <line x1="0" y1="25" x2="115" y2="125" vector-effect="non-scaling-stroke" stroke-dasharray="10" />
+                  <line x1="0" y1="25" x2="115" y2="125" vectorEffect="non-scaling-stroke" strokeDasharray="10" />
                 </svg>
               </div>
               <div className="tracking-wide pl-10 border-l-4 border-blue-500 col-span-2">
@@ -92,7 +92,7 @@ export default function Home() {
               </div>
               <div className="flex justify-end col-span-1">
                 <svg className="stroke-neutral-400 stroke-[5px]" width='100%' height='100%' viewBox='0 0 100 100' preserveAspectRatio='none' transform="scale(-1 1)">
-                  <line x1="0" y1="25" x2="125" y2="125" vector-effect="non-scaling-stroke" stroke-dasharray="10" />
+                  <line x1="0" y1="25" x2="125" y2="125" vectorEffect="non-scaling-stroke" strokeDasharray="10" />
                 </svg>
                 <svg className="fill-blue-600 -mr-[24px] -mt-[3px] z-10" width="48" height="48" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
                   <circle cx="48" cy="48" r="48"/>
@@ -149,7 +149,7 @@ export default function Home() {
                 </div>
                 <footer className="flex gap-4 p-4 items-center">
                   <ProjectLinks url="https://www.gogeek.uk" name="GoGeek UK" />
-                  <TagList tags={['Shopwired', 'Twig', 'Bulma']} />
+                  <TagList prefix="gogeek" tags={['Shopwired', 'Twig', 'Bulma']} />
                 </footer>
               </article>
 
@@ -161,7 +161,7 @@ export default function Home() {
                 </div>
                 <footer className="flex gap-4 p-4 items-center">
                   <ProjectLinks url="https://www.safepairofhands.co.uk" name="Safe Pair of Hands Technology" />
-                  <TagList tags={['Ghost', 'SCSS', 'Azure']} />
+                  <TagList prefix="spoh" tags={['Ghost', 'SCSS', 'Azure']} />
                 </footer>
               </article>
 
@@ -173,7 +173,7 @@ export default function Home() {
                 </div>
                 <footer className="flex gap-4 p-4 items-center">
                   <ProjectLinks url="https://www.compareev.uk" github="https://github.com/tomgiddings/compare-EV" name="Compare EV" />
-                  <TagList tags={['NextJS', 'Tailwind', 'MongoDB']} />
+                  <TagList prefix="compare-ev" tags={['NextJS', 'Tailwind', 'MongoDB']} />
                 </footer>
               </article>
 
@@ -185,7 +185,7 @@ export default function Home() {
                 </div>
                 <footer className="flex gap-4 p-4 items-center">
                   <ProjectLinks github="https://github.com/tomgiddings/nextjs-ecommerce" name="Compare EV" />
-                  <TagList tags={['NextJS', 'Tailwind', 'CockroachDB']} />
+                  <TagList prefix="nextjs-storefront" tags={['NextJS', 'Tailwind', 'CockroachDB']} />
                 </footer>
               </article>
 
@@ -197,7 +197,7 @@ export default function Home() {
                 </div>
                 <footer className="flex gap-4 p-4 items-center">
                   <ProjectLinks github="https://github.com/tomgiddings/react-chat" name="React Chat" />
-                  <TagList tags={['React', 'Pusher', 'Material UI']} />
+                  <TagList prefix="react-chat" tags={['React', 'Pusher', 'Material UI']} />
                 </footer>
               </article>
 
@@ -209,7 +209,7 @@ export default function Home() {
                 </div>
                 <footer className="flex gap-4 p-4 items-center">
                   <ProjectLinks url="https://codepen.io/tomgiddings/pen/yLyExxo" github="https://github.com/tomgiddings/airport-board" name="React Chat" />
-                  <TagList tags={['SCSS']} />
+                  <TagList prefix="airport-board" tags={['SCSS']} />
                 </footer>
               </article>
 
