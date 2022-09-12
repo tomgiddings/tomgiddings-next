@@ -10,8 +10,9 @@ const Terminal: React.FC = () => (
         </div>
         <div className={styles.fakeScreen}>
         <p suppressHydrationWarning>Last login: {DateTime.local().toHTTP()} on ttys000</p>
-        <p className={styles.typeText}>$ Good {DateTime.local().hour < 12 ? `morning` : DateTime.local().hour < 16 ? 'afternoon' : `evening`}.</p>
-        <p className={styles.typeText}>$ I am Tom, a Web Developer &amp; Broadcast Engineer.</p>
+        <p className={styles.typeText}>$ Good {DateTime.local().toObject().hour < 12 ? `morning` : DateTime.local().toObject().hour < 16 ? 'afternoon' : `evening`}.</p>
+        <p className={styles.typeText}>$ I am Tom, a Web Developer</p>
+        <p className={styles.typeText}>$ &amp; Broadcast Engineer.</p>
         <p className={styles.typeText}>$ Find out more about me below...&#9608;</p>
         </div>
     </div>
