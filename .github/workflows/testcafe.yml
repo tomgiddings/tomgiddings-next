@@ -31,14 +31,17 @@ jobs:
             ${{ runner.os }}-
 
       - if: ${{ steps.cache-npm.outputs.cache-hit != 'true' }}
-        name: List the state of node modules
-        continue-on-error: true
+        name: NPM install
         run: npm i
 
       - name: Build app
+        run: npm run build
+
+      - name: Start app
         run: npm run start &
 
       - name: Run tests
+        needs:
         uses: DevExpress/testcafe-action@latest
         with:
-          args: 'chrome:headless index.e2e.test.ts -s takeOnFails=true -q -c 3'
+          args: 'firefox:headless index.e2e.test.ts -s takeOnFails=true -q -c 3'
