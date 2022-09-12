@@ -41,7 +41,6 @@ jobs:
         run: npm run start &
 
       - name: Run tests
-        needs:
         uses: DevExpress/testcafe-action@latest
         with:
           args: 'firefox:headless index.e2e.test.ts -s takeOnFails=true -q -c 3'
