@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 import {
   ChevronDoubleDownIcon,
   BriefcaseIcon,
@@ -248,7 +249,7 @@ export default function Home() {
                   className="rounded-t-md"
                 />
                 <div className="p-4 space-y-4">
-                  <h3 className="text-xl font-medium tracking-wide">
+                  <h3 className="text-3xl font-thin tracking-wide">
                     GoGeek UK
                   </h3>
                   <p className="text-sm">
@@ -274,7 +275,7 @@ export default function Home() {
                   className="rounded-t-md"
                 />
                 <div className="p-4 space-y-4">
-                  <h3 className="text-xl font-medium tracking-wide">
+                  <h3 className="text-3xl font-thin tracking-wide">
                     Safe Pair of Hands Technology
                   </h3>
                   <p className="text-sm">
@@ -300,7 +301,7 @@ export default function Home() {
                   className="rounded-t-md"
                 />
                 <div className="p-4 space-y-4">
-                  <h3 className="text-xl font-medium tracking-wide">
+                  <h3 className="text-3xl font-thin tracking-wide">
                     Compare EV
                   </h3>
                   <p className="text-sm">
@@ -331,7 +332,7 @@ export default function Home() {
                   className="rounded-t-md"
                 />
                 <div className="p-4 space-y-4">
-                  <h3 className="text-xl font-medium tracking-wide">
+                  <h3 className="text-3xl font-thin tracking-wide">
                     NextJS Storefront
                   </h3>
                   <p className="text-sm">
@@ -360,7 +361,7 @@ export default function Home() {
                   className="rounded-t-md"
                 />
                 <div className="p-4 space-y-4">
-                  <h3 className="text-xl font-medium tracking-wide">
+                  <h3 className="text-3xl font-thin tracking-wide">
                     React Chat
                   </h3>
                   <p className="text-sm">
@@ -389,7 +390,7 @@ export default function Home() {
                   className="rounded-t-md"
                 />
                 <div className="p-4 space-y-4">
-                  <h3 className="text-xl font-medium tracking-wide">
+                  <h3 className="text-3xl font-thin tracking-wide">
                     Airport Board
                   </h3>
                   <p className="text-sm">
@@ -404,6 +405,25 @@ export default function Home() {
                     name="React Chat"
                   />
                   <TagList prefix="airport-board" tags={['SCSS']} />
+                </footer>
+              </article>
+
+              <article className="bg-blue-700 text-slate-50 rounded-md col-span-1 md:col-span-2 shadow-xl">
+                <div className="p-4 space-y-4">
+                  <h3 className="text-3xl font-thin tracking-wide">
+                    View the code for this website
+                  </h3>
+                  <p className="text-sm">
+                    This site is built using <Link href="https://nextjs.org/"><a className="underline underline-offset-1 font-medium">NextJS</a></Link> and <Link href="https://tailwindcss.com/"><a className="underline underline-offset-1 font-medium">Tailwind</a></Link>, and deployed using <Link href="https://pages.cloudflare.com/"><a className="underline underline-offset-1 font-medium">Cloudflare Pages</a></Link>.
+                  </p>
+                </div>
+                <footer className="flex gap-4 p-4 items-center">
+                  <ProjectLinks
+                    github="https://github.com/tomgiddings/tomgiddings-next"
+                    name="tomgiddings.co.uk"
+                    theme={'dark'}
+                  />
+                  <TagList prefix="tomgiddings" tags={['NextJS', 'Tailwind', 'Cloudflare']} theme={'dark'} />
                 </footer>
               </article>
             </div>
