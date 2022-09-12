@@ -91,7 +91,7 @@ export default function Home() {
               <div className="text-right tracking-wide pr-10 h-48 col-span-2">
               </div>
               <div className="flex justify-end col-span-1">
-                <svg className="stroke-neutral-400 stroke-[5px]" width='100%' height='100%' viewBox='0 0 100 100' preserveAspectRatio='none'>
+                <svg className="stroke-neutral-400 stroke-[5px]" width='100%' height='100%' viewBox='0 0 96 96' preserveAspectRatio='none'>
                   <line x1="-10" y1="115" x2="115" y2="5" vectorEffect="non-scaling-stroke" strokeDasharray="10" />
                 </svg>
                 <svg className="fill-blue-600 -mr-[24px] -mt-[3px] z-10" width="48" height="48" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
