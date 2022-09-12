@@ -16,4 +16,9 @@ This app is designed to be deployed (and live) on [Cloudflare Pages](https://pag
 
 ## Tests
 
-End to end testing is provided via [Testcafe](https://testcafe.io/) and can be run using `npm test`.
+End to end testing is provided via [Testcafe](https://testcafe.io/) and Chrome. These are run using `npm run test`, and are also included as part of a GitHub Workflow.
+
+## Prettier and eslint
+
+- To run eslint: `npm run lint`.
+- To run prettier: `npm run prettier`.
