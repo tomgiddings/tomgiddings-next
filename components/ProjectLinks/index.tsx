@@ -11,7 +11,7 @@ const ProjectLinks: React.FC<Props> = (props) => {
     return (
         <>
             {props.url && 
-                <Link href="http://www.gogeek.uk" title={`Visit ${props.name}`}>
+                <Link href={props.url} title={`Visit ${props.name}`}>
                     <a><GlobeAltIcon className="w-8 h-8" /><span className="sr-only">{`Visit ${props.name}`}</span></a>
                 </Link>
             }
