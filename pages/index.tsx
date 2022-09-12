@@ -80,7 +80,7 @@ export default function Home() {
                 <svg className="fill-green-600 -ml-[26px] z-10" width="48" height="48" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
                   <circle cx="48" cy="48" r="48"/>
                 </svg>
-                <svg className="stroke-neutral-400 stroke-[5px]" width='100%' height='100%' viewBox='0 0 100 100' preserveAspectRatio='none'>
+                <svg className="stroke-neutral-400 stroke-[5px]" width='100%' height='100%' viewBox='0 0 96 96' preserveAspectRatio='none'>
                   <line x1="-5" y1="15" x2="115" y2="120" vectorEffect="non-scaling-stroke" strokeDasharray="10" />
                 </svg>
               </div>
