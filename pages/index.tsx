@@ -81,7 +81,7 @@ export default function Home() {
                   <circle cx="48" cy="48" r="48"/>
                 </svg>
                 <svg className="stroke-neutral-400 stroke-[5px]" width='100%' height='100%' viewBox='0 0 100 100' preserveAspectRatio='none'>
-                  <line x1="0" y1="25" x2="115" y2="125" vectorEffect="non-scaling-stroke" strokeDasharray="10" />
+                  <line x1="-5" y1="15" x2="115" y2="120" vectorEffect="non-scaling-stroke" strokeDasharray="10" />
                 </svg>
               </div>
               <div className="tracking-wide pl-10 border-l-4 border-blue-500 col-span-2">
@@ -92,7 +92,7 @@ export default function Home() {
               </div>
               <div className="flex justify-end col-span-1">
                 <svg className="stroke-neutral-400 stroke-[5px]" width='100%' height='100%' viewBox='0 0 100 100' preserveAspectRatio='none'>
-                  <line x1="-10" y1="125" x2="125" y2="0" vectorEffect="non-scaling-stroke" strokeDasharray="10" />
+                  <line x1="-10" y1="115" x2="115" y2="5" vectorEffect="non-scaling-stroke" strokeDasharray="10" />
                 </svg>
                 <svg className="fill-blue-600 -mr-[24px] -mt-[3px] z-10" width="48" height="48" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
                   <circle cx="48" cy="48" r="48"/>
