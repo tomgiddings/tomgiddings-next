@@ -1,5 +1,7 @@
 # NextJS App - tomgiddings.co.uk
 
+![End-to-end tests](https://github.com/tomgiddings/tomgiddings-next/actions/workflows/testcafe.yml/badge.svg)
+
 This application is built using [NextJS](https://nextjs.org/) and [Tailwind](https://tailwindui.com/).
 
 ```bash

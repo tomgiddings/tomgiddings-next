@@ -1,4 +1,4 @@
-name: tomgiddings.co.uk e2e tests
+name: e2e-tests
 on: [push]
 
 jobs:
@@ -31,12 +31,9 @@ jobs:
             ${{ runner.os }}-
 
       - if: ${{ steps.cache-npm.outputs.cache-hit != 'true' }}
-        name: List the state of node modules
+        name: Install dependencies
         continue-on-error: true
-        run: npm list
-
-      - name: Install dependencies
-        run: npm install
+        run: npm i
 
       - name: Build app
         run: npm run build
