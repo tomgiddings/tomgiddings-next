@@ -66,10 +66,6 @@
   .typeText:nth-child(5){
     animation: type4 9s steps(60, end);
   }
-  .typeText a {
-    color: lime;
-    text-decoration: none;
-  }
   @keyframes type { 
     from { width: 0; } 
   } 
