@@ -142,9 +142,9 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
 
               <article className="bg-slate-50 text-slate-900 rounded-md">
-                <Image src={'/screenshot.jpeg'} alt="GoGeek UK" layout="responsive" width={300} height={200} className="rounded-t-md" />
-                <div className="p-4">
-                  <h3>GoGeek UK</h3>
+                <Image src={'/gogeek.png'} alt="GoGeek UK" layout="responsive" width={600} height={300} className="rounded-t-md" />
+                <div className="p-4 space-y-4">
+                  <h3 className="text-xl font-medium tracking-wide">GoGeek UK</h3>
                   <p className="text-sm">A theme developed for the Shopwired ecommerce platform.</p>
                 </div>
                 <footer className="flex gap-4 p-4 items-center">
@@ -154,9 +154,9 @@ export default function Home() {
               </article>
 
               <article className="bg-slate-50 text-slate-900 rounded-md">
-                <Image src={'/screenshot.jpeg'} alt="Safe Pair of Hands Technology" layout="responsive" width={300} height={200} className="rounded-t-md" />
-                <div className="p-4">
-                  <h3>Safe Pair of Hands Technology</h3>
+                <Image src={'/spoh.png'} alt="Safe Pair of Hands Technology" layout="responsive" width={600} height={300} className="rounded-t-md" />
+                <div className="p-4 space-y-4">
+                  <h3 className="text-xl font-medium tracking-wide">Safe Pair of Hands Technology</h3>
                   <p className="text-sm">The company website for Safe Pair of Hands Technology.</p>
                 </div>
                 <footer className="flex gap-4 p-4 items-center">
@@ -166,9 +166,9 @@ export default function Home() {
               </article>
 
               <article className="bg-slate-50 text-slate-900 rounded-md">
-                <Image src={'/screenshot.jpeg'} alt="Compare EV" layout="responsive" width={300} height={200} className="rounded-t-md" />
-                <div className="p-4">
-                  <h3>Compare EV</h3>
+                <Image src={'/compare-ev.jpeg'} alt="Compare EV" layout="responsive" width={600} height={300} className="rounded-t-md" />
+                <div className="p-4 space-y-4">
+                  <h3 className="text-xl font-medium tracking-wide">Compare EV</h3>
                   <p className="text-sm">A simple comparison website for those wishing to purchase an Electric Vehicle (EV).</p>
                 </div>
                 <footer className="flex gap-4 p-4 items-center">
@@ -178,9 +178,9 @@ export default function Home() {
               </article>
 
               <article className="bg-slate-50 text-slate-900 rounded-md">
-                <Image src={'/screenshot.jpeg'} alt="NextJS Storefront" layout="responsive" width={300} height={200} className="rounded-t-md" />
-                <div className="p-4">
-                  <h3>NextJS Storefront</h3>
+                <Image src={'/nextjs-ecommerce.png'} alt="NextJS Storefront" layout="responsive" width={600} height={300} className="rounded-t-md" />
+                <div className="p-4 space-y-4">
+                  <h3 className="text-xl font-medium tracking-wide">NextJS Storefront</h3>
                   <p className="text-sm">A storefront made using NextJS, Tailwind and Cockroach DB.</p>
                 </div>
                 <footer className="flex gap-4 p-4 items-center">
@@ -190,9 +190,9 @@ export default function Home() {
               </article>
 
               <article className="bg-slate-50 text-slate-900 rounded-md">
-                <Image src={'/screenshot.jpeg'} alt="React Chat" layout="responsive" width={300} height={200} className="rounded-t-md" />
-                <div className="p-4">
-                  <h3>React Chat</h3>
+                <Image src={'/react-chat.png'} alt="React Chat" layout="responsive" width={600} height={300} className="rounded-t-md" />
+                <div className="p-4 space-y-4">
+                  <h3 className="text-xl font-medium tracking-wide">React Chat</h3>
                   <p className="text-sm">A chat app using React, TypeScript, Material-UI and Pusher.</p>
                 </div>
                 <footer className="flex gap-4 p-4 items-center">
@@ -202,9 +202,9 @@ export default function Home() {
               </article>
 
               <article className="bg-slate-50 text-slate-900 rounded-md">
-                <Image src={'/screenshot.jpeg'} alt="Airport Board" layout="responsive" width={300} height={200} className="rounded-t-md" />
-                <div className="p-4">
-                  <h3>Airport Board</h3>
+                <Image src={'/airport-board.png'} alt="Airport Board" layout="responsive" width={600} height={300} className="rounded-t-md" />
+                <div className="p-4 space-y-4">
+                  <h3 className="text-xl font-medium tracking-wide">Airport Board</h3>
                   <p className="text-sm">An animated airport arrivals/departures board built with HTML/SCSS.</p>
                 </div>
                 <footer className="flex gap-4 p-4 items-center">

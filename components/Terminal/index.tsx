@@ -2,7 +2,7 @@ import { DateTime } from 'luxon';
 import styles from './terminal.module.css';
 
 const Terminal: React.FC = () => (
-    <div className={`${styles.terminal} text-xs md:text-lg`}>
+    <div className={`${styles.terminal} text-sm md:text-2xl`}>
         <div className={styles.fakeMenu}>
         <div className={`${styles.fakeButtons} ${styles.fakeClose}`}></div>
         <div className={`${styles.fakeButtons} ${styles.fakeMinimize}`}></div>
