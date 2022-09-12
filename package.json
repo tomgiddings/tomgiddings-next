@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "npx testcafe chrome index.e2e.test.ts"
+    "prettier": "npx prettier --write .",
+    "test": "npx testcafe chrome:headless:cdpPort=9222 index.e2e.test.ts"
   },
   "dependencies": {
     "@heroicons/react": "^2.0.10",
@@ -23,10 +24,12 @@
     "autoprefixer": "^10.4.2",
     "eslint": "8.10.0",
     "eslint-config-next": "12.1.0",
+    "mockdate": "^3.0.5",
     "postcss": "^8.4.8",
     "prettier": "2.7.1",
     "tailwindcss": "^3.0.23",
     "testcafe": "^2.0.0",
+    "testcafe-lighthouse": "^2.0.0",
     "typescript": "^4.8.3"
   }
 }

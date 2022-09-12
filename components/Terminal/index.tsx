@@ -12,7 +12,7 @@ const Terminal: React.FC = () => (
       <p suppressHydrationWarning>
         Last login: {DateTime.local().toHTTP()} on ttys000
       </p>
-      <p className={styles.typeText}>
+      <p id="greeting" className={styles.typeText}>
         $ Good{' '}
         {DateTime.local().toObject().hour < 12
           ? `morning`
