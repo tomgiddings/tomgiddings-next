@@ -5,6 +5,7 @@ import {
   ChevronDoubleDownIcon,
   BriefcaseIcon,
   CodeBracketSquareIcon,
+  CodeBracketIcon,
 } from '@heroicons/react/24/outline';
 
 import Terminal from '../components/Terminal';
@@ -408,8 +409,9 @@ export default function Home() {
                 </footer>
               </article>
 
-              <article className="bg-blue-700 text-slate-50 rounded-md col-span-1 md:col-span-2 shadow-xl">
-                <div className="p-4 space-y-4">
+              <article className="bg-blue-700 text-slate-50 rounded-md col-span-1 md:col-span-2 shadow-xl overflow-hidden">
+                <div className="p-4 space-y-4 relative">
+                  <CodeBracketIcon className="h-48 opacity-5 absolute right-10 top-0"/>
                   <h3 className="text-3xl font-thin tracking-wide">
                     View the code for this website
                   </h3>
