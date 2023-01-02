@@ -39,6 +39,14 @@ export default function Home() {
                   Senior Software Engineer
                 </h3>
                 <p className="font-thin text-xs md:text-base">Tes</p>
+                <div className="pt-2 hidden md:flex justify-end">
+                  <TagList
+                      prefix="tes"
+                      tags={['NextJS', 'React', 'AWS']}
+                      theme="dark"
+                      mini
+                  />
+                </div>
               </article>
               <div className="flex justify-between col-span-1">
                 <svg
@@ -67,6 +75,14 @@ export default function Home() {
                 <p className="font-thin text-xs md:text-base">
                   Safe Pair of Hands Technology
                 </p>
+                <div className="pt-2 hidden md:flex">
+                  <TagList
+                      prefix="spoh"
+                      tags={['NodeJS', 'Ghost', 'Azure']}
+                      theme="dark"
+                      mini
+                  />
+                </div>
               </article>
 
               {/* Tier Two */}
@@ -75,6 +91,14 @@ export default function Home() {
                   Senior Software Developer
                 </h3>
                 <p className="font-thin text-xs md:text-base">Commonplace (3 mos)</p>
+                <div className="pt-2 hidden md:flex justify-end">
+                  <TagList
+                      prefix="commonplace"
+                      tags={['NextJS', 'MongoDB', 'AWS']}
+                      theme="dark"
+                      mini
+                  />
+                </div>
               </article>
               <div className="flex justify-between col-span-1">
                 <svg
@@ -96,6 +120,14 @@ export default function Home() {
                   Software Team Lead
                 </h3>
                 <p className="font-thin text-xs md:text-base">Jisc (5 mos)</p>
+                <div className="pt-2 hidden md:flex justify-end">
+                  <TagList
+                      prefix="jisc-tl"
+                      tags={['NextJS', 'AWS', 'Serverless']}
+                      theme="dark"
+                      mini
+                  />
+                </div>
               </article>
               <div className="flex justify-between col-span-1">
                 <svg
@@ -116,6 +148,14 @@ export default function Home() {
                   Software Developer
                 </h3>
                 <p className="font-thin text-xs md:text-base">Jisc (10 mos)</p>
+                <div className="pt-2 hidden md:flex justify-end">
+                  <TagList
+                      prefix="jisc-sd"
+                      tags={['NextJS', 'Terraform', 'Docker']}
+                      theme="dark"
+                      mini
+                  />
+                </div>
               </article>
               <div className="flex justify-between col-span-1">
                 <svg
@@ -138,6 +178,14 @@ export default function Home() {
                 <p className="font-thin text-xs md:text-base">
                   Electric Studio (3 mos)
                 </p>
+                <div className="pt-2 hidden md:flex justify-end">
+                  <TagList
+                      prefix="es"
+                      tags={['Wordpress', 'React', 'SCSS']}
+                      theme="dark"
+                      mini
+                  />
+                </div>
               </article>
               <div className="flex justify-between col-span-1">
                 <svg
@@ -204,6 +252,14 @@ export default function Home() {
                 <p className="font-thin text-xs md:text-base">
                   Bauer Media (2 yrs 10 mos)
                 </p>
+                <div className="pt-2 hidden md:flex">
+                  <TagList
+                      prefix="bauer"
+                      tags={['NodeJS', 'Angular', 'MSSQL']}
+                      theme="dark"
+                      mini
+                  />
+                </div>
               </article>
 
               {/* Tier Seven */}
@@ -214,6 +270,14 @@ export default function Home() {
                 <p className="font-thin text-xs md:text-base">
                   Global Personals (3 yrs 1 mo)
                 </p>
+                <div className="pt-2 hidden md:flex justify-end">
+                  <TagList
+                      prefix="gp"
+                      tags={['ColdFusion', 'MySQL', 'Ruby']}
+                      theme="dark"
+                      mini
+                  />
+                </div>
               </article>
               <div className="flex justify-between col-span-1">
                 <svg
@@ -236,6 +300,14 @@ export default function Home() {
                 <p className="font-thin text-xs md:text-base">
                   Bangor University (3 yrs 3 mo)
                 </p>
+                <div className="pt-2 hidden md:flex justify-end">
+                  <TagList
+                      prefix="bangor"
+                      tags={['PHP', 'CSS', 'Oracle']}
+                      theme="dark"
+                      mini
+                  />
+                </div>
               </article>
               <div className="flex justify-between col-span-1">
                 <svg
@@ -470,7 +542,7 @@ export default function Home() {
                     name="tomgiddings.co.uk"
                     theme={'dark'}
                   />
-                  <TagList prefix="tomgiddings" tags={['NextJS', 'Tailwind', 'Cloudflare']} theme={'dark'} />
+                  <TagList prefix="tomgiddings" tags={['NextJS', 'Tailwind', 'Cloudflare']} theme={'blue'} />
                 </footer>
               </article>
             </div>
