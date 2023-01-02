@@ -262,14 +262,18 @@ export default function Home() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <article className="bg-slate-50 text-slate-900 rounded-md">
-                <Image
-                  src={'/gogeek.png'}
-                  alt="GoGeek UK"
-                  layout="responsive"
-                  width={600}
-                  height={300}
-                  className="rounded-t-md"
-                />
+                <Link href={'https://gogeek.uk'} passHref>
+                  <a>
+                    <Image
+                      src={'/gogeek.png'}
+                      alt="GoGeek UK"
+                      layout="responsive"
+                      width={600}
+                      height={300}
+                      className="rounded-t-md"
+                    />
+                  </a>
+                </Link>
                 <div className="p-4 space-y-4">
                   <h3 className="text-3xl font-thin tracking-wide">
                     GoGeek UK
@@ -288,14 +292,18 @@ export default function Home() {
               </article>
 
               <article className="bg-slate-50 text-slate-900 rounded-md">
-                <Image
-                  src={'/spoh.png'}
-                  alt="Safe Pair of Hands Technology"
-                  layout="responsive"
-                  width={600}
-                  height={300}
-                  className="rounded-t-md"
-                />
+                <Link href={'https://safepairofhands.co.uk'} passHref>
+                  <a>
+                    <Image
+                      src={'/spoh.png'}
+                      alt="Safe Pair of Hands Technology"
+                      layout="responsive"
+                      width={600}
+                      height={300}
+                      className="rounded-t-md"
+                    />
+                  </a>
+                </Link>
                 <div className="p-4 space-y-4">
                   <h3 className="text-3xl font-thin tracking-wide">
                     Safe Pair of Hands Technology
@@ -314,14 +322,18 @@ export default function Home() {
               </article>
 
               <article className="bg-slate-50 text-slate-900 rounded-md">
-                <Image
-                  src={'/compare-ev.jpeg'}
-                  alt="Compare EV"
-                  layout="responsive"
-                  width={600}
-                  height={300}
-                  className="rounded-t-md"
-                />
+                <Link href={'https://compareev.uk'} passHref>
+                  <a>
+                    <Image
+                      src={'/compare-ev.jpeg'}
+                      alt="Compare EV"
+                      layout="responsive"
+                      width={600}
+                      height={300}
+                      className="rounded-t-md"
+                    />
+                  </a>
+                </Link>
                 <div className="p-4 space-y-4">
                   <h3 className="text-3xl font-thin tracking-wide">
                     Compare EV
@@ -345,14 +357,18 @@ export default function Home() {
               </article>
 
               <article className="bg-slate-50 text-slate-900 rounded-md">
-                <Image
-                  src={'/nextjs-ecommerce.png'}
-                  alt="NextJS Storefront"
-                  layout="responsive"
-                  width={600}
-                  height={300}
-                  className="rounded-t-md"
-                />
+                <Link href={'https://github.com/tomgiddings/nextjs-ecommerce'} passHref>
+                  <a>
+                    <Image
+                      src={'/nextjs-ecommerce.png'}
+                      alt="NextJS Storefront"
+                      layout="responsive"
+                      width={600}
+                      height={300}
+                      className="rounded-t-md"
+                    />
+                  </a>
+                </Link>
                 <div className="p-4 space-y-4">
                   <h3 className="text-3xl font-thin tracking-wide">
                     NextJS Storefront
@@ -374,14 +390,18 @@ export default function Home() {
               </article>
 
               <article className="bg-slate-50 text-slate-900 rounded-md">
-                <Image
-                  src={'/react-chat.png'}
-                  alt="React Chat"
-                  layout="responsive"
-                  width={600}
-                  height={300}
-                  className="rounded-t-md"
-                />
+                <Link href={'https://github.com/tomgiddings/react-chat'} passHref>
+                  <a>
+                    <Image
+                      src={'/react-chat.png'}
+                      alt="React Chat"
+                      layout="responsive"
+                      width={600}
+                      height={300}
+                      className="rounded-t-md"
+                    />
+                  </a>
+                </Link>
                 <div className="p-4 space-y-4">
                   <h3 className="text-3xl font-thin tracking-wide">
                     React Chat
@@ -403,14 +423,18 @@ export default function Home() {
               </article>
 
               <article className="bg-slate-50 text-slate-900 rounded-md">
-                <Image
-                  src={'/airport-board.png'}
-                  alt="Airport Board"
-                  layout="responsive"
-                  width={600}
-                  height={300}
-                  className="rounded-t-md"
-                />
+                <Link href={'https://codepen.io/tomgiddings/pen/yLyExxo'} passHref>
+                  <a>
+                    <Image
+                      src={'/airport-board.png'}
+                      alt="Airport Board"
+                      layout="responsive"
+                      width={600}
+                      height={300}
+                      className="rounded-t-md"
+                    />
+                  </a>
+                </Link>
                 <div className="p-4 space-y-4">
                   <h3 className="text-3xl font-thin tracking-wide">
                     Airport Board
