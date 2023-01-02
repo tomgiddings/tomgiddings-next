@@ -36,9 +36,9 @@ export default function Home() {
               {/* Tier One */}
               <article className="text-right tracking-wide pr-10 border-r-4 border-green-500 h-48 col-span-2">
                 <h3 className="font-bold text-xs md:text-base">
-                  Senior Software Developer
+                  Senior Software Engineer
                 </h3>
-                <p className="font-thin text-xs md:text-base">Commonplace</p>
+                <p className="font-thin text-xs md:text-base">Tes</p>
               </article>
               <div className="flex justify-between col-span-1">
                 <svg
@@ -72,6 +72,27 @@ export default function Home() {
               {/* Tier Two */}
               <article className="text-right tracking-wide pr-10 border-r-4 border-green-500 h-48 col-span-2">
                 <h3 className="font-bold text-xs md:text-base">
+                  Senior Software Developer
+                </h3>
+                <p className="font-thin text-xs md:text-base">Commonplace (3 mos)</p>
+              </article>
+              <div className="flex justify-between col-span-1">
+                <svg
+                  className="fill-green-600 -ml-[26px] z-10"
+                  width="48"
+                  height="48"
+                  viewBox="0 0 96 96"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="48" cy="48" r="48" />
+                </svg>
+              </div>
+              <div className="tracking-wide pl-10 border-l-4 border-blue-500 col-span-2"></div>
+              
+
+              {/* Tier Three */}
+              <article className="text-right tracking-wide pr-10 border-r-4 border-green-500 h-48 col-span-2">
+                <h3 className="font-bold text-xs md:text-base">
                   Software Team Lead
                 </h3>
                 <p className="font-thin text-xs md:text-base">Jisc (5 mos)</p>
@@ -89,7 +110,7 @@ export default function Home() {
               </div>
               <div className="tracking-wide pl-10 border-l-4 border-blue-500 col-span-2"></div>
 
-              {/* Tier Three */}
+              {/* Tier Four */}
               <article className="text-right tracking-wide pr-10 border-r-4 border-green-500 h-48 col-span-2">
                 <h3 className="font-bold text-xs md:text-base">
                   Software Developer
@@ -109,7 +130,7 @@ export default function Home() {
               </div>
               <div className="pl-10 border-l-4 border-blue-500 col-span-2"></div>
 
-              {/* Tier Four */}
+              {/* Tier Five */}
               <article className="text-right tracking-wide pr-10 h-48 col-span-2">
                 <h3 className="font-bold text-xs md:text-base">
                   Frontend Developer
@@ -136,10 +157,10 @@ export default function Home() {
                   preserveAspectRatio="none"
                 >
                   <line
-                    x1="-5"
-                    y1="15"
+                    x1="-20"
+                    y1="-5"
                     x2="115"
-                    y2="120"
+                    y2="115"
                     vectorEffect="non-scaling-stroke"
                     strokeDasharray="10"
                   />
@@ -147,7 +168,7 @@ export default function Home() {
               </div>
               <div className="tracking-wide pl-10 border-l-4 border-blue-500 col-span-2"></div>
 
-              {/* Tier Five */}
+              {/* Tier Six */}
               <div className="text-right tracking-wide pr-10 h-48 col-span-2"></div>
               <div className="flex justify-end col-span-1">
                 <svg
@@ -158,10 +179,10 @@ export default function Home() {
                   preserveAspectRatio="none"
                 >
                   <line
-                    x1="-10"
+                    x1="-15"
                     y1="115"
                     x2="115"
-                    y2="5"
+                    y2="-5"
                     vectorEffect="non-scaling-stroke"
                     strokeDasharray="10"
                   />
@@ -185,7 +206,7 @@ export default function Home() {
                 </p>
               </article>
 
-              {/* Tier Six */}
+              {/* Tier Seven */}
               <article className="text-right tracking-wide pr-10 border-r-4 border-green-500 h-48 col-span-2">
                 <h3 className="font-bold text-xs md:text-base">
                   Web Developer
@@ -207,7 +228,7 @@ export default function Home() {
               </div>
               <div className="pl-10 col-span-2"></div>
 
-              {/* Tier Seven */}
+              {/* Tier Eight */}
               <article className="text-right tracking-wide pr-10 h-24 col-span-2">
                 <h3 className="font-bold text-xs md:text-base">
                   Support Technician &amp; Developer
