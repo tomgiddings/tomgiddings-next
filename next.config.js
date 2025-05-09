@@ -3,6 +3,7 @@
  */
 const nextConfig = {
   output: 'export',
+  static_site_generator: next,
   images: {
     unoptimized: true,
   },
