@@ -16,11 +16,11 @@ This app is designed to be deployed (and live) on [Cloudflare Pages](https://pag
 
 ## Tests
 
-End to end testing is provided via [Testcafe](https://testcafe.io/) and Chrome. These are run using `npm run test`, and are also included as part of a GitHub Workflow.
+End to end testing is provided via [Testcafe](https://testcafe.io/) and Firefox. These are run using `npm t`, and are also included as part of a GitHub Workflow. You will need to start the app with `npm run dev` before attempting to run the tests.
 
 ## Accessibility
 
-As part of end to end testing, a lighthouse score of 100 for accessibility is required.
+As part of end to end testing, Axe is used to check for violations.
 
 ## Prettier and eslint
 

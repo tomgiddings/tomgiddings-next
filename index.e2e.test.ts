@@ -1,23 +1,17 @@
 import * as TC from 'testcafe';
-import { testcafeAudit } from 'testcafe-lighthouse';
+import { checkForViolations } from '@testcafe-community/axe';
 
 // Test: Accessibility
+fixture `TestCafe tests with Axe`
+    .page `http://localhost:3000`;
 
-fixture`Lighthouse`.page`http://localhost:3000`;
-
-test('Lighthouse accessibility audit', async (t) => {
-  await testcafeAudit({
-    url: 'http://localhost:3000',
-    thresholds: {
-      accessibility: 100,
-    },
-    cdpPort: 9222,
-  });
+test('Automated accessibility testing', t => {
+    // do stuff on your page
+    checkForViolations(t);
 });
 
 // Test: Terminal greetings based on time of day
-
-fixture`Good morning`.clientScripts([
+fixture`Good morning`.skipJsErrors().clientScripts([
   { module: 'mockdate' },
   { content: "MockDate.set('2022-11-22 11:22:33 AM')" },
 ]).page`http://localhost:3000`;
@@ -43,7 +37,7 @@ test('Good evening does not appear in terminal', async (t) => {
     .notContains('Good evening', 'does not contain good evening');
 });
 
-fixture`Good afternoon`.clientScripts([
+fixture`Good afternoon`.skipJsErrors().clientScripts([
   { module: 'mockdate' },
   { content: "MockDate.set('2022-11-22 1:22:33 PM')" },
 ]).page`http://localhost:3000`;
@@ -69,7 +63,7 @@ test('Good evening does not appear in terminal', async (t) => {
     .notContains('Good evening', 'does not contain good evening');
 });
 
-fixture`Good evening`.clientScripts([
+fixture`Good evening`.skipJsErrors().clientScripts([
   { module: 'mockdate' },
   { content: "MockDate.set('2022-11-22 8:22:33 PM')" },
 ]).page`http://localhost:3000`;

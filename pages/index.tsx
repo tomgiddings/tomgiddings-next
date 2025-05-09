@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import Link from 'next/link';
 import {
   ChevronDoubleDownIcon,
@@ -38,13 +38,13 @@ export default function Home() {
                 <h3 className="font-bold text-xs md:text-base">
                   Senior Software Engineer
                 </h3>
-                <p className="font-thin text-xs md:text-base">Tes</p>
+                <p className="font-thin text-xs md:text-base">Kraken Technologies (Current)</p>
                 <div className="pt-2 hidden md:flex justify-end">
                   <TagList
-                      prefix="tes"
-                      tags={['NextJS', 'React', 'AWS']}
-                      theme="dark"
-                      mini
+                    prefix="kraken-se2"
+                    tags={['TypeScript', 'NoSQL', 'AWS']}
+                    theme="dark"
+                    mini
                   />
                 </div>
               </article>
@@ -73,14 +73,14 @@ export default function Home() {
                   Director &amp; Engineer
                 </h3>
                 <p className="font-thin text-xs md:text-base">
-                  Safe Pair of Hands Technology
+                  Safe Pair of Hands Technology (Current)
                 </p>
                 <div className="pt-2 hidden md:flex">
                   <TagList
-                      prefix="spoh"
-                      tags={['NodeJS', 'Ghost', 'Azure']}
-                      theme="dark"
-                      mini
+                    prefix="spoh"
+                    tags={['NodeJS', 'Ghost', 'Azure']}
+                    theme="dark"
+                    mini
                   />
                 </div>
               </article>
@@ -88,15 +88,15 @@ export default function Home() {
               {/* Tier Two */}
               <article className="text-right tracking-wide pr-10 border-r-4 border-green-500 h-48 col-span-2">
                 <h3 className="font-bold text-xs md:text-base">
-                  Senior Software Developer
+                  Software Engineer II
                 </h3>
-                <p className="font-thin text-xs md:text-base">Commonplace (3 mos)</p>
+                <p className="font-thin text-xs md:text-base">Kraken Technologies (1 yr 8 mos)</p>
                 <div className="pt-2 hidden md:flex justify-end">
                   <TagList
-                      prefix="commonplace"
-                      tags={['NextJS', 'MongoDB', 'AWS']}
-                      theme="dark"
-                      mini
+                    prefix="kraken-se2"
+                    tags={['TypeScript', 'NoSQL', 'AWS']}
+                    theme="dark"
+                    mini
                   />
                 </div>
               </article>
@@ -112,20 +112,19 @@ export default function Home() {
                 </svg>
               </div>
               <div className="tracking-wide pl-10 border-l-4 border-blue-500 col-span-2"></div>
-              
 
               {/* Tier Three */}
               <article className="text-right tracking-wide pr-10 border-r-4 border-green-500 h-48 col-span-2">
                 <h3 className="font-bold text-xs md:text-base">
-                  Software Team Lead
+                  Senior Software Engineer
                 </h3>
-                <p className="font-thin text-xs md:text-base">Jisc (5 mos)</p>
+                <p className="font-thin text-xs md:text-base">Tes (9 mos)</p>
                 <div className="pt-2 hidden md:flex justify-end">
                   <TagList
-                      prefix="jisc-tl"
-                      tags={['NextJS', 'AWS', 'Serverless']}
-                      theme="dark"
-                      mini
+                    prefix="tes"
+                    tags={['TypeScript', 'NextJS', 'AWS']}
+                    theme="dark"
+                    mini
                   />
                 </div>
               </article>
@@ -145,15 +144,72 @@ export default function Home() {
               {/* Tier Four */}
               <article className="text-right tracking-wide pr-10 border-r-4 border-green-500 h-48 col-span-2">
                 <h3 className="font-bold text-xs md:text-base">
+                  Senior Software Developer
+                </h3>
+                <p className="font-thin text-xs md:text-base">Commonplace (3 mos)</p>
+                <div className="pt-2 hidden md:flex justify-end">
+                  <TagList
+                    prefix="commonplace"
+                    tags={['TypeScript', 'NextJS', 'AWS']}
+                    theme="dark"
+                    mini
+                  />
+                </div>
+              </article>
+              <div className="flex justify-between col-span-1">
+                <svg
+                  className="fill-green-600 -ml-[26px] z-10"
+                  width="48"
+                  height="48"
+                  viewBox="0 0 96 96"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="48" cy="48" r="48" />
+                </svg>
+              </div>
+              <div className="tracking-wide pl-10 border-l-4 border-blue-500 col-span-2"></div>
+
+
+              {/* Tier Five */}
+              <article className="text-right tracking-wide pr-10 border-r-4 border-green-500 h-48 col-span-2">
+                <h3 className="font-bold text-xs md:text-base">
+                  Software Team Lead
+                </h3>
+                <p className="font-thin text-xs md:text-base">Jisc (5 mos)</p>
+                <div className="pt-2 hidden md:flex justify-end">
+                  <TagList
+                    prefix="jisc-tl"
+                    tags={['TypeScript', 'NextJS', 'AWS', 'Serverless']}
+                    theme="dark"
+                    mini
+                  />
+                </div>
+              </article>
+              <div className="flex justify-between col-span-1">
+                <svg
+                  className="fill-green-600 -ml-[26px] z-10"
+                  width="48"
+                  height="48"
+                  viewBox="0 0 96 96"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="48" cy="48" r="48" />
+                </svg>
+              </div>
+              <div className="tracking-wide pl-10 border-l-4 border-blue-500 col-span-2"></div>
+
+              {/* Tier Six */}
+              <article className="text-right tracking-wide pr-10 border-r-4 border-green-500 h-48 col-span-2">
+                <h3 className="font-bold text-xs md:text-base">
                   Software Developer
                 </h3>
                 <p className="font-thin text-xs md:text-base">Jisc (10 mos)</p>
                 <div className="pt-2 hidden md:flex justify-end">
                   <TagList
-                      prefix="jisc-sd"
-                      tags={['NextJS', 'Terraform', 'Docker']}
-                      theme="dark"
-                      mini
+                    prefix="jisc-sd"
+                    tags={['TypeScript', 'NextJS', 'Terraform', 'Docker']}
+                    theme="dark"
+                    mini
                   />
                 </div>
               </article>
@@ -170,7 +226,7 @@ export default function Home() {
               </div>
               <div className="pl-10 border-l-4 border-blue-500 col-span-2"></div>
 
-              {/* Tier Five */}
+              {/* Tier Seven */}
               <article className="text-right tracking-wide pr-10 h-48 col-span-2">
                 <h3 className="font-bold text-xs md:text-base">
                   Frontend Developer
@@ -180,10 +236,10 @@ export default function Home() {
                 </p>
                 <div className="pt-2 hidden md:flex justify-end">
                   <TagList
-                      prefix="es"
-                      tags={['Wordpress', 'React', 'SCSS']}
-                      theme="dark"
-                      mini
+                    prefix="es"
+                    tags={['Wordpress', 'React', 'SCSS']}
+                    theme="dark"
+                    mini
                   />
                 </div>
               </article>
@@ -216,7 +272,7 @@ export default function Home() {
               </div>
               <div className="tracking-wide pl-10 border-l-4 border-blue-500 col-span-2"></div>
 
-              {/* Tier Six */}
+              {/* Tier Eight */}
               <div className="text-right tracking-wide pr-10 h-48 col-span-2"></div>
               <div className="flex justify-end col-span-1">
                 <svg
@@ -254,15 +310,15 @@ export default function Home() {
                 </p>
                 <div className="pt-2 hidden md:flex">
                   <TagList
-                      prefix="bauer"
-                      tags={['NodeJS', 'Angular', 'MSSQL']}
-                      theme="dark"
-                      mini
+                    prefix="bauer"
+                    tags={['NodeJS', 'Angular', 'MSSQL']}
+                    theme="dark"
+                    mini
                   />
                 </div>
               </article>
 
-              {/* Tier Seven */}
+              {/* Tier Nine */}
               <article className="text-right tracking-wide pr-10 border-r-4 border-green-500 h-48 col-span-2">
                 <h3 className="font-bold text-xs md:text-base">
                   Web Developer
@@ -272,10 +328,10 @@ export default function Home() {
                 </p>
                 <div className="pt-2 hidden md:flex justify-end">
                   <TagList
-                      prefix="gp"
-                      tags={['ColdFusion', 'MySQL', 'Ruby']}
-                      theme="dark"
-                      mini
+                    prefix="gp"
+                    tags={['ColdFusion', 'MySQL', 'Ruby']}
+                    theme="dark"
+                    mini
                   />
                 </div>
               </article>
@@ -292,7 +348,7 @@ export default function Home() {
               </div>
               <div className="pl-10 col-span-2"></div>
 
-              {/* Tier Eight */}
+              {/* Tier Ten */}
               <article className="text-right tracking-wide pr-10 h-24 col-span-2">
                 <h3 className="font-bold text-xs md:text-base">
                   Support Technician &amp; Developer
@@ -302,10 +358,10 @@ export default function Home() {
                 </p>
                 <div className="pt-2 hidden md:flex justify-end">
                   <TagList
-                      prefix="bangor"
-                      tags={['PHP', 'CSS', 'Oracle']}
-                      theme="dark"
-                      mini
+                    prefix="bangor"
+                    tags={['PHP', 'CSS', 'Oracle']}
+                    theme="dark"
+                    mini
                   />
                 </div>
               </article>
@@ -335,16 +391,16 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <article className="bg-slate-50 text-slate-900 rounded-md">
                 <Link href={'https://gogeek.uk'} passHref>
-                  <a>
-                    <Image
-                      src={'/gogeek.png'}
-                      alt="GoGeek UK"
-                      layout="responsive"
-                      width={600}
-                      height={300}
-                      className="rounded-t-md"
-                    />
-                  </a>
+
+                  <Image
+                    src={'/gogeek.png'}
+                    alt="GoGeek UK"
+                    layout="responsive"
+                    width={600}
+                    height={300}
+                    className="rounded-t-md"
+                  />
+
                 </Link>
                 <div className="p-4 space-y-4">
                   <h3 className="text-3xl font-thin tracking-wide">
@@ -365,16 +421,16 @@ export default function Home() {
 
               <article className="bg-slate-50 text-slate-900 rounded-md">
                 <Link href={'https://safepairofhands.co.uk'} passHref>
-                  <a>
-                    <Image
-                      src={'/spoh.png'}
-                      alt="Safe Pair of Hands Technology"
-                      layout="responsive"
-                      width={600}
-                      height={300}
-                      className="rounded-t-md"
-                    />
-                  </a>
+
+                  <Image
+                    src={'/spoh.png'}
+                    alt="Safe Pair of Hands Technology"
+                    layout="responsive"
+                    width={600}
+                    height={300}
+                    className="rounded-t-md"
+                  />
+
                 </Link>
                 <div className="p-4 space-y-4">
                   <h3 className="text-3xl font-thin tracking-wide">
@@ -395,16 +451,16 @@ export default function Home() {
 
               <article className="bg-slate-50 text-slate-900 rounded-md">
                 <Link href={'https://compareev.uk'} passHref>
-                  <a>
-                    <Image
-                      src={'/compare-ev.jpeg'}
-                      alt="Compare EV"
-                      layout="responsive"
-                      width={600}
-                      height={300}
-                      className="rounded-t-md"
-                    />
-                  </a>
+
+                  <Image
+                    src={'/compare-ev.jpeg'}
+                    alt="Compare EV"
+                    layout="responsive"
+                    width={600}
+                    height={300}
+                    className="rounded-t-md"
+                  />
+
                 </Link>
                 <div className="p-4 space-y-4">
                   <h3 className="text-3xl font-thin tracking-wide">
@@ -430,16 +486,16 @@ export default function Home() {
 
               <article className="bg-slate-50 text-slate-900 rounded-md">
                 <Link href={'https://github.com/tomgiddings/nextjs-ecommerce'} passHref>
-                  <a>
-                    <Image
-                      src={'/nextjs-ecommerce.png'}
-                      alt="NextJS Storefront"
-                      layout="responsive"
-                      width={600}
-                      height={300}
-                      className="rounded-t-md"
-                    />
-                  </a>
+
+                  <Image
+                    src={'/nextjs-ecommerce.png'}
+                    alt="NextJS Storefront"
+                    layout="responsive"
+                    width={600}
+                    height={300}
+                    className="rounded-t-md"
+                  />
+
                 </Link>
                 <div className="p-4 space-y-4">
                   <h3 className="text-3xl font-thin tracking-wide">
@@ -463,16 +519,16 @@ export default function Home() {
 
               <article className="bg-slate-50 text-slate-900 rounded-md">
                 <Link href={'https://github.com/tomgiddings/react-chat'} passHref>
-                  <a>
-                    <Image
-                      src={'/react-chat.png'}
-                      alt="React Chat"
-                      layout="responsive"
-                      width={600}
-                      height={300}
-                      className="rounded-t-md"
-                    />
-                  </a>
+
+                  <Image
+                    src={'/react-chat.png'}
+                    alt="React Chat"
+                    layout="responsive"
+                    width={600}
+                    height={300}
+                    className="rounded-t-md"
+                  />
+
                 </Link>
                 <div className="p-4 space-y-4">
                   <h3 className="text-3xl font-thin tracking-wide">
@@ -496,16 +552,16 @@ export default function Home() {
 
               <article className="bg-slate-50 text-slate-900 rounded-md">
                 <Link href={'https://codepen.io/tomgiddings/pen/yLyExxo'} passHref>
-                  <a>
-                    <Image
-                      src={'/airport-board.png'}
-                      alt="Airport Board"
-                      layout="responsive"
-                      width={600}
-                      height={300}
-                      className="rounded-t-md"
-                    />
-                  </a>
+
+                  <Image
+                    src={'/airport-board.png'}
+                    alt="Airport Board"
+                    layout="responsive"
+                    width={600}
+                    height={300}
+                    className="rounded-t-md"
+                  />
+
                 </Link>
                 <div className="p-4 space-y-4">
                   <h3 className="text-3xl font-thin tracking-wide">
@@ -528,12 +584,18 @@ export default function Home() {
 
               <article className="bg-blue-700 text-slate-50 rounded-md col-span-1 md:col-span-2 shadow-xl overflow-hidden">
                 <div className="p-4 space-y-4 relative">
-                  <CodeBracketIcon className="h-48 opacity-5 absolute right-10 top-0"/>
+                  <CodeBracketIcon className="h-48 opacity-5 absolute right-10 top-0" />
                   <h3 className="text-3xl font-thin tracking-wide">
                     View the code for this website
                   </h3>
                   <p className="text-sm">
-                    This site is built using <Link href="https://nextjs.org/"><a className="underline underline-offset-1 font-medium">NextJS</a></Link> and <Link href="https://tailwindcss.com/"><a className="underline underline-offset-1 font-medium">Tailwind</a></Link>, and deployed using <Link href="https://pages.cloudflare.com/"><a className="underline underline-offset-1 font-medium">Cloudflare Pages</a></Link>.
+                    This site is built using <Link
+                      href="https://nextjs.org/"
+                      className="underline underline-offset-1 font-medium">NextJS</Link> and <Link
+                        href="https://tailwindcss.com/"
+                        className="underline underline-offset-1 font-medium">Tailwind</Link>, and deployed using <Link
+                          href="https://pages.cloudflare.com/"
+                          className="underline underline-offset-1 font-medium">Cloudflare Pages</Link>.
                   </p>
                 </div>
                 <footer className="flex gap-4 p-4 items-center">
