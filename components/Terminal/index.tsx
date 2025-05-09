@@ -17,12 +17,12 @@ const Terminal: React.FC = () => (
         {DateTime.local().toObject().hour < 12
           ? `morning`
           : DateTime.local().toObject().hour < 16
-          ? 'afternoon'
-          : `evening`}
+            ? 'afternoon'
+            : `evening`}
         .
       </p>
-      <p className={styles.typeText}>$ I am Tom, a Web Developer</p>
-      <p className={styles.typeText}>$ &amp; Broadcast Engineer.</p>
+      <p className={styles.typeText}>$ I am Tom, a Software Engineer</p>
+      <p className={styles.typeText}>$ &amp; Broadcast Systems Engineer.</p>
       <p className={styles.typeText}>
         $ Find out more about me below...&#9608;
       </p>
